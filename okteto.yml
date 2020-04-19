@@ -1,0 +1,17 @@
+name: redwoodblog
+image: okteto/node:12
+volumes:
+  - /node_modules
+resources:
+  requests:
+    memory: "2Gi"
+    cpu: "500m"
+  limits:
+    memory: "2Gi"
+    cpu: "2"
+forward:
+  - 8910:8910
+  - 8911:8911
+  - 5432:postgres:5432
+persistentVolume:
+  enabled: true

@@ -13,9 +13,9 @@ services:
     command: sleep infinity
 
     links:
-      - db
+      - postgres
 
-  db:
+  postgres:
     image: postgres
     restart: unless-stopped
     ports:

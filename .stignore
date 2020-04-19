@@ -1,0 +1,4 @@
+okteto.yml
+.git
+node_modules/
+dist/
