@@ -1561,10 +1561,10 @@
     findup-sync "^4.0.0"
     toml "^3.0.0"
 
-"@redwoodjs/router@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.5.0.tgz#1197a1984d6fcfca757d6206413388d130cccbbc"
-  integrity sha512-UyM5h+W57YFXEj8c8ki8OJq94pchJelXxl3T2zTnyvr1XHwGz3f16RAZqi3hbToRrlbV5VAogSpbbs9/u9aiuA==
+"@redwoodjs/router@0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.8.2.tgz#e0c7961c78203dd0fbf6d048a697c6565c601906"
+  integrity sha512-DS7BEtj7Rt7ArAxPN74aaC6WvLk9qDqpTY+mEm2MIA4bMgjtcaCS3wajXAtbhsiLopjSZq2kFaUC+1f7SaeWsQ==
   dependencies:
     core-js "3.6.4"
 
