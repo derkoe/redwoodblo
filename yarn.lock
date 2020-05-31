@@ -1568,14 +1568,14 @@
   dependencies:
     core-js "3.6.4"
 
-"@redwoodjs/web@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-0.5.0.tgz#746aadac97a46fe6b93028494964bfd08242896e"
-  integrity sha512-L2c8JtZ3DnpGmB+87yAAjwslO2/5R5GkF1/MWeZELyRGw1t9i13IMYx4Mz3UVC+PY3HHw70jCyPyZyNg4HgrUg==
+"@redwoodjs/web@0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-0.8.2.tgz#32a09840e54c17718f559a802b384b16e053a9ad"
+  integrity sha512-Nkv0NaTb0hS0x+QNARsg5pa6dgp847I6eqhP8JLzYW/oxMk9tlp+FH8PC8ej0x0hbWN0fxlZOGFAT2DUVeo72g==
   dependencies:
     "@apollo/react-components" "^3.1.3"
     "@apollo/react-hooks" "^3.1.3"
-    "@types/react" "^16.9.26"
+    "@types/react" "16.9.35"
     apollo-boost "0.4.7"
     apollo-cache "^1.3.4"
     apollo-client "^2.6.8"
@@ -1979,6 +1979,14 @@
   version "16.9.34"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.34.tgz#f7d5e331c468f53affed17a8a4d488cd44ea9349"
   integrity sha512-8AJlYMOfPe1KGLKyHpflCg5z46n0b5DbRfqDksxBLBTUpB75ypDBAO9eCUcjNwE6LCUslwTz00yyG/X9gaVtow==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/react@16.9.35":
+  version "16.9.35"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.35.tgz#a0830d172e8aadd9bd41709ba2281a3124bbd368"
+  integrity sha512-q0n0SsWcGc8nDqH2GJfWQWUOmZSJhXV64CjVN5SvcNti3TdEaA3AH0D8DwNmMdzjMAC/78tB8nAZIlV8yTz+zQ==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
